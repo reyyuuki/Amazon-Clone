@@ -256,6 +256,7 @@ ul a{
     font-size:0.7rem;
     text-align: center;
 }
+
 @media only screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -272,21 +273,38 @@ ul a{
         max-width: none;
     }
 
+    .Carts {
+        margin-top: 5px;
+        gap: 5rem;
+    }
+
+    .nav-address {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
     .box {
         width: 100%;
     }
 
-    .foot-panel1{
-        width:100%;
+    .panel-ops{
+        width:120%;
+        font-size: 12px;
+    }
+
+    .foot-panel1 {
+        width: 100%;
         padding: 0px 20px;
     }
+
     .foot-panel2 {
         width: 100%;
         padding: 20px;
     }
 
-    .foot-panel2 > * {
-        margin: 0; 
+    .foot-panel2>* {
+        margin: 0;
         margin-bottom: 20px;
     }
 
@@ -296,5 +314,3 @@ ul a{
     }
 
 }
-
-
