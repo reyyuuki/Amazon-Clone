@@ -256,12 +256,45 @@ ul a{
     font-size:0.7rem;
     text-align: center;
 }
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
 
-.pages{
-    padding-top: 25px;
-}
-.copyright{
-    padding-top: 5px;
+    .nav_logo {
+        margin-bottom: 15px;
+    }
+
+    .nav-search {
+        width: 100%;
+        max-width: none;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .foot-panel1{
+        width:100%;
+        padding: 0px 20px;
+    }
+    .foot-panel2 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .foot-panel2 > * {
+        margin: 0; 
+        margin-bottom: 20px;
+    }
+
+    .foot-panel3,
+    .foot-panel4 {
+        display: none;
+    }
+
 }
 
 
